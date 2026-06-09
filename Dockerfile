@@ -22,6 +22,6 @@ RUN mkdir -p public
 # Copy env file dari build context langsung
 COPY ${ENV_FILE} .env
 
-EXPOSE 4001
+EXPOSE 4004
 
 CMD ["bun", "server.js"]

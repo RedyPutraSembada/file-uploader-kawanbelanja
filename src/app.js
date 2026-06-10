@@ -6,6 +6,8 @@ import apiRoutes from './routes/api.js'
 
 const app = express()
 
+app.set('trust proxy', 1);
+
 // Middleware Global
 app.use(
 	cors({
